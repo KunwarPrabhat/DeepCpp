@@ -25,6 +25,7 @@ int main() {
     std::cout<<"Number of odd numbers : "<<oddcount<<std::endl;
     std::cout<<"The array location is : "<< arr <<std::endl;
     std::cout<<"The array location that the pointer indicate : "<< ptr <<std::endl;
+    delete[] arr;
     std::cin.get();
 
 }

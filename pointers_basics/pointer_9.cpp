@@ -20,4 +20,6 @@ int main() {
         std::cout<< *(ptr + i);
         n/=10; 
     }
+    delete[] arr;
+
 }
