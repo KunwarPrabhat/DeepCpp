@@ -6,7 +6,7 @@ int main() {
     int count = 0;
     std::cout<<"Enter a number : ";
     std::cin>> n;
-    int temp =n;
+    int temp = n;
 
     while (temp > 0) {
         temp/= 10;  
